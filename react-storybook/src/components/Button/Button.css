@@ -1,0 +1,14 @@
+button {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.primary { background-color: orange;}
+.secondary { background-color:  blue;}
+.success { background-color:  green;}
+.danger { background-color: red;}
