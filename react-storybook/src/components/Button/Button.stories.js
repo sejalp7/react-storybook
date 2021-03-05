@@ -1,12 +1,12 @@
 import React from 'react';
-import Button from './Button';
+import CustomButton from './Button';
 
 export default {
     title: 'Button',
-    component: Button
+    component: CustomButton
 }
 
-export const Primary = () => <Button variant="primary">Primary</Button>
-export const Secondary = () => <Button variant="secondary">Secondary</Button>
-export const Success = () => <Button variant="success">Success</Button>
-export const Danger = () => <Button variant="danger">Danger</Button>
+export const Primary = () => <CustomButton variant="primary">Primary</CustomButton>
+export const Secondary = () => <CustomButton variant="secondary">Secondary</CustomButton>
+export const Success = () => <CustomButton variant="success">Success</CustomButton>
+export const Danger = () => <CustomButton variant="danger">Danger</CustomButton>
